@@ -27,11 +27,17 @@ export default {
         'primary': '#CC2D4A',
         'secondary': '#8FA206',
         'terciary': '#61AEC9',
+        'white': '#FFFFFF',
+        'black': '#000000',
+        'gray': '#CCCCCC',
       },
       textColor: {
         'primary': '#CC2D4A',
         'secondary': '#8FA206',
         'terciary': '#61AEC9',
+        'white': '#FFFFFF',
+        'black': '#000000',
+        'gray': '#CCCCCC',
       },
       fontFamily: { 
         Montserrat: ["Monserrat", "sans-serif"],
