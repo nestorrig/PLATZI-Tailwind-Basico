@@ -8,37 +8,37 @@ function ScrollCards() {
             </h2>
             <div className="w-full items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-4 lg:space-x-6 scrollbar">
                 <ScrollCard
-                    image="norway"
+                    image="bg-norway"
                     title="Norway"
                     description="Beautiful landscapes"
                 />
                 <ScrollCard
-                    image="norway"
+                    image="bg-norway"
                     title="Norway"
                     description="Beautiful landscapes"
                 />
                 <ScrollCard
-                    image="norway"
+                    image="bg-norway"
                     title="Norway"
                     description="Beautiful landscapes"
                 />
                 <ScrollCard
-                    image="norway"
+                    image="bg-norway"
                     title="Norway"
                     description="Beautiful landscapes"
                 />
                 <ScrollCard
-                    image="norway"
+                    image="bg-norway"
                     title="Norway"
                     description="Beautiful landscapes"
                 />
                 <ScrollCard
-                    image="norway"
+                    image="bg-norway"
                     title="Norway"
                     description="Beautiful landscapes"
                 />
                 <ScrollCard
-                    image="norway"
+                    image="bg-norway"
                     title="Norway"
                     description="Beautiful landscapes"
                 />
