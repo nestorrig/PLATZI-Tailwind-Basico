@@ -21,22 +21,22 @@ return (
 
     {/* Desktop Header */}
     <div className="hidden md:flex items-center justify-center">
-        <div className="hidden md:flex justify-between items-center w-full max-w-7xl p-6">
+        <div className="hidden md:flex justify-between items-center w-full max-w-7xl p-3">
             {/* Title */}
-            <h1 className="text-2xl font-bold text-center text-primary">Platzi Travel</h1>
+            <h1 className="text-2xl font-medium text-center text-primary">Platzi Travel</h1>
 
             {/* Navigation */}
             <nav className="flex justify-center gap-4 transition-colors">
-                <a href="#" className="text-lg font-bold text-primary hover:text-black transition-colors">
+                <a href="#" className="text-lg font-medium text-primary hover:text-black transition-colors">
                     Locations
                 </a>
-                <a href="#" className="text-lg font-bold text-primary hover:text-black transition-colors">
+                <a href="#" className="text-lg font-medium text-primary hover:text-black transition-colors">
                     Stays
                 </a>
-                <a href="#" className="text-lg font-bold text-primary hover:text-black transition-colors">
+                <a href="#" className="text-lg font-medium text-primary hover:text-black transition-colors">
                     FAQs
                 </a>
-                <a href="#" className="text-lg font-bold text-primary hover:text-black transition-colors">
+                <a href="#" className="text-lg font-medium text-primary hover:text-black transition-colors">
                     About Us
                 </a>
             </nav>

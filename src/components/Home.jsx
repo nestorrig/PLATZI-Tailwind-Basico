@@ -2,7 +2,7 @@
 
 const Home = () => {
     return (
-        <section className="relative w-full h-[480px] bg-sanFrancisco object-cover md:pl-16 ">
+        <section className="relative w-full h-[480px] bg-sanFrancisco lg:bg-sanFranciscoDesktop bg-cover bg-center md:pl-16 ">
             <h1 className="hidden md:block pt-32 text-black text-3xl font-bold">
                 Find more locations like this
             </h1>
