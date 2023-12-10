@@ -6,9 +6,11 @@ const Home = () => {
             <h1 className="hidden md:block pt-32 text-black text-3xl font-bold">
                 Find more locations like this
             </h1>
-            <button className="w-48 h-12 bg-white text-primary font-medium text-base rounded-3xl absolute bottom-5 md:static md:mt-9">
-                Explore More
-            </button>
+            <div className="w-full md:w-48 flex justify-center h-12 absolute bottom-5 md:static md:mt-9">
+                <button className="w-48 h-12 bg-white text-primary font-medium text-base rounded-3xl">
+                    Explore More
+                </button>
+            </div>
         </section>
     )
 }

@@ -2,6 +2,7 @@
 
 import Header from './components/Header'
 import Home from './components/Home'
+import ScrollCards from './components/ScrollCards'
 import './index.css'
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
     <>
       <Header />
       <Home />
+      <main className='px-6 lg:px-12'>
+        <ScrollCards />
+      </main>
     </>
   )
 }
