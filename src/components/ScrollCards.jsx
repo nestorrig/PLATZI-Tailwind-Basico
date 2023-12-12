@@ -13,34 +13,24 @@ function ScrollCards() {
                     description="Beautiful landscapes"
                 />
                 <ScrollCard
-                    image="bg-norway"
-                    title="Norway"
-                    description="Beautiful landscapes"
+                    image="bg-newyork"
+                    title="New York"
+                    description="Concrete jungle"
                 />
                 <ScrollCard
-                    image="bg-norway"
-                    title="Norway"
-                    description="Beautiful landscapes"
+                    image="bg-yosemite"
+                    title="Yosemite"
+                    description="A break from the world"
                 />
                 <ScrollCard
-                    image="bg-norway"
-                    title="Norway"
-                    description="Beautiful landscapes"
+                    image="bg-seattle"
+                    title="Seattle"
+                    description="Big City"
                 />
                 <ScrollCard
-                    image="bg-norway"
-                    title="Norway"
-                    description="Beautiful landscapes"
-                />
-                <ScrollCard
-                    image="bg-norway"
-                    title="Norway"
-                    description="Beautiful landscapes"
-                />
-                <ScrollCard
-                    image="bg-norway"
-                    title="Norway"
-                    description="Beautiful landscapes"
+                    image="bg-switzerland"
+                    title="Switzerland"
+                    description="Big City"
                 />
             </div>
         </>

@@ -12,7 +12,7 @@ export default {
         'yosemite': "url('/imgs/yosemite.jpg')",
         'LA': "url('/imgs/LA.jpg')",
         'seattle': "url('/imgs/seattle.jpg')",
-        'new_york': "url('/imgs/new_york.jpg')",
+        'newyork': "url('/imgs/new_york.jpg')",
         'norway': "url('/imgs/norway.jpg')",
         'sydney': "url('/imgs/sydney.jpg')",
         'miami': "url('/imgs/miami.jpg')",
