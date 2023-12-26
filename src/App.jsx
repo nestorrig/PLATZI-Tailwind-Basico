@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 
+import GridCards from './components/GridCards'
 import Header from './components/Header'
 import Home from './components/Home'
 import ScrollCards from './components/ScrollCards'
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <main className='px-6 lg:px-12'>
         <ScrollCards />
+        <GridCards />
       </main>
     </>
   )
