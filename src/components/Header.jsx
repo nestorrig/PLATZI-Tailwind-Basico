@@ -2,7 +2,7 @@
 
 const Header = () => {
 return (
-    <header className="bg-white relative">
+    <header id="Search" className="bg-white relative">
     {/* Mobile Header */}
     <div className="md:hidden absolute z-10 flex items-center gap-5 flex-col p-4 w-full">
         {/* Dark Mode Button */}
