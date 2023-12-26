@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 
+import Faqs from './components/Faqs'
 import GridCards from './components/GridCards'
 import Header from './components/Header'
 import Home from './components/Home'
@@ -15,6 +16,7 @@ function App() {
       <main className='px-6 lg:px-12'>
         <ScrollCards />
         <GridCards />
+        <Faqs />
       </main>
     </>
   )
