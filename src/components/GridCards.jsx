@@ -7,12 +7,9 @@ function GridCards() {
             <h2 className="Second-title">
                 Trending Stays
             </h2>
-            <div>
+            <section>
                 <div>
                     <div>
-                        {/* <div className="image-card md:mb-14">
-                            
-                        </div> */}
                         <Card
                             image="bg-chicago"
                             title="Chicago"
@@ -42,7 +39,7 @@ function GridCards() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </>
     )
 }
@@ -53,7 +50,7 @@ function Card({image, customStyles, title, description}) {
 
     return (
         <>
-            <div 
+            <article 
                 className={`text-card ${customStyles}`}
                 onMouseOver={() => setIsHovered(true)}
                 onMouseOut={() => setIsHovered(false)}
@@ -68,7 +65,7 @@ function Card({image, customStyles, title, description}) {
                         {description}
                     </p>
                 </div>
-            </div>
+            </article>
         
         </>
     )

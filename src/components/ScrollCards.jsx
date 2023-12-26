@@ -14,7 +14,7 @@ function ScrollCards() {
             <h2 className="Second-title">
                 Our Remonedations
             </h2>
-            <div className="custom-scrollbar w-full items-center py-6 overflow-x-scroll overscroll-x-contain flex space-x-4 lg:space-x-6 overflow-visible">
+            <section className="custom-scrollbar w-full items-center py-6 overflow-x-scroll overscroll-x-contain flex space-x-4 lg:space-x-6 overflow-visible">
                 {cardData.map((card, index) => (
                     <ScrollCard
                         key={index}
@@ -23,7 +23,7 @@ function ScrollCards() {
                         description={card.description}
                     />
                 ))}
-            </div>
+            </section>
         </>
     );
 }
