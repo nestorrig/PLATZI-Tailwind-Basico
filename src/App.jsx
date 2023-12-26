@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 
 import Faqs from './components/Faqs'
+import Footer from './components/Footer'
 import GridCards from './components/GridCards'
 import Header from './components/Header'
 import Home from './components/Home'
@@ -18,6 +19,7 @@ function App() {
         <GridCards />
         <Faqs />
       </main>
+      <Footer />
     </>
   )
 }
