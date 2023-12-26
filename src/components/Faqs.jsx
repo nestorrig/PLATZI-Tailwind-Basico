@@ -28,7 +28,7 @@ function Faqs() {
             <h2 className="Second-title font-bold md:text-[38px]">
                 FAQs
             </h2>
-            <section>
+            <section className="mb-14 md:mb-20">
                 {faqData.map((card, index) => (
                     <TextCard
                         key={index}

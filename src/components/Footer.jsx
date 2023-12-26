@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <footer>
+        <footer className="mb-[72px] md:mb-0">
             <div className="bg-primary text-white py-8 px-6 md:px-12">
                 <div className="container mx-auto flex flex-col items-start justify-between">
                     <div className="flex flex-col items-start">

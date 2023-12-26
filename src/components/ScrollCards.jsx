@@ -4,8 +4,11 @@ const cardData = [
     { image: "bg-norway", title: "Norway", description: "Beautiful landscapes" },
     { image: "bg-newyork", title: "New York", description: "Concrete jungle" },
     { image: "bg-yosemite", title: "Yosemite", description: "A break from the world" },
-    { image: "bg-seattle", title: "Seattle", description: "Big City" },
-    { image: "bg-switzerland", title: "Switzerland", description: "Big City" },
+    { image: "bg-seattle", title: "Seattle", description: "Coffee and rain" },
+    { image: "bg-switzerland", title: "Switzerland", description: "The Alps" },
+    { image: "bg-sydney", title: "Sydney", description: "Opera House" },
+    { image: "bg-europe", title: "Europe", description: "The old continent" },
+    { image: "bg-iceland", title: "Iceland", description: "The land of ice and fire" },
 ];
 
 function ScrollCards() {
