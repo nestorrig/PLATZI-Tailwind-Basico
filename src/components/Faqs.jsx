@@ -25,10 +25,10 @@ const faqData = [
 function Faqs() {
     return (
         <>
-            <h2 className="Second-title font-bold md:text-[38px]">
+            <h2 className="Second-title font-bold md:text-[48px]">
                 FAQs
             </h2>
-            <section className="mb-14 md:mb-20">
+            <section className="pb-14 md:pb-20">
                 {faqData.map((card, index) => (
                     <TextCard
                         key={index}
@@ -45,8 +45,8 @@ export default Faqs;
 function TextCard({title, description}) {
     return (
         <article className="mb-3 md:mb-12">
-            <h3 className="text-base md:text-[35px] text-primary font-semibold mb-2 md:mb-7">{title}</h3>
-            <p className="text-[12px] md:text-xl">{description}</p>
+            <h3 className="text-base md:text-[32px] text-primary dark:text-white font-semibold mb-2 md:mb-7">{title}</h3>
+            <p className="text-[12px] md:text-xl dark:text-white">{description}</p>
         </article>
     )
 }

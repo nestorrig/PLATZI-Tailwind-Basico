@@ -15,7 +15,7 @@ function App() {
     <>
       <Header />
       <Home />
-      <main className='px-6 lg:px-12'>
+      <main className='px-6 lg:px-12 dark:bg-dark1'>
         <ScrollCards />
         <GridCards />
         <Faqs />

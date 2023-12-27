@@ -19,7 +19,7 @@ function Navbar() {
     const [activeIndex, setActiveIndex] = useState(null);
 
     return (
-        <nav className="fixed md:hidden w-full h-[72px] bottom-0 bg-white">
+        <nav className="fixed z-30 md:hidden w-full h-[72px] bottom-0 bg-[#f6f6f6] dark:bg-dark2">
         <ul className=" h-full flex items-center justify-center gap-9">
             {navItems.map((item, index) => (
                 <li 

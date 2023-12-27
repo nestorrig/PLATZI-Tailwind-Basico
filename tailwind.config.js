@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage:{
@@ -29,7 +30,10 @@ export default {
         'terciary': '#61AEC9',
         'white': '#FFFFFF',
         'black': '#000000',
-        'gray': '#CCCCCC',
+        'gray': '#f6f6f6',
+        'dark1': '#111827',
+        'dark2': '#1f2937',
+        'dark3': '#374151',
       },
       textColor: {
         'primary': '#CC2D4A',

@@ -57,7 +57,7 @@ function Card({image, customStyles, title, description}) {
             >
                 <div className={`image-card ${image} ${isHovered ? 'image-hover' : ''}`}>
                 </div>
-                <div className="text-white w-[200px] md:w-full md:max-w-[300px] md:text-end">
+                <div className="text-white w-[200px] md:w-full md:max-w-[300px] md:text-end z-20">
                     <h3 className="font-extrabold text-2xl md:text-4xl mb-3 md:mb-6">
                         {title}
                     </h3>

@@ -3,6 +3,7 @@ function ScrollCard({image, title, description}) {
     return (
         <article className="
             relative bg-white even:bg-secondary 
+            dark:bg-dark2 dark:even:bg-dark3 dark:text-white
             text-terciary even:text-white 
             rounded-lg shadow-md
             min-w-[160px] md:min-w-[272px]

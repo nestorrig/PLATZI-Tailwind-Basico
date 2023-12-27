@@ -7,7 +7,7 @@ const Home = () => {
                 Find more locations like this
             </h1>
             <div className="w-full md:w-48 flex justify-center h-12 absolute bottom-5 md:static md:mt-9">
-                <button className="w-48 h-12 bg-white text-primary font-medium text-base rounded-3xl">
+                <button className="w-48 h-12 bg-white text-primary dark:bg-dark2 dark:text-white font-medium text-base rounded-3xl">
                     Explore More
                 </button>
             </div>
