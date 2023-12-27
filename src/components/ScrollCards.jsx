@@ -14,7 +14,7 @@ const cardData = [
 function ScrollCards() {
     return (
         <>
-            <h2 className="Second-title">
+            <h2 className="Second-title" id="Locations">
                 Our Remonedations
             </h2>
             <section className="custom-scrollbar w-full items-center py-6 overflow-x-scroll overscroll-x-contain flex space-x-4 lg:space-x-6 overflow-visible">

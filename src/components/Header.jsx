@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 const NAV_ITEMS = [
     { href: '#Locations', label: 'Locations' },
-    { href: '#Favourites', label: 'Stays' },
+    { href: '#Stays', label: 'Stays' },
     { href: '#Faqs', label: 'FAQs' },
     { href: '#AboutUs', label: 'About Us' },
 ];

@@ -25,7 +25,7 @@ const faqData = [
 function Faqs() {
     return (
         <>
-            <h2 className="Second-title font-bold md:text-[48px]">
+            <h2 className="Second-title font-bold md:text-[48px]" id="Faqs">
                 FAQs
             </h2>
             <section className="pb-14 md:pb-20">

@@ -4,7 +4,7 @@ import { useState } from "react";
 function GridCards() {
     return (
         <>
-            <h2 id="Favourites" className="Second-title">
+            <h2 id="Stays" className="Second-title">
                 Trending Stays
             </h2>
             <section>
