@@ -12,7 +12,7 @@ function Navigation() {
     return (
     <nav className="flex justify-center gap-4 transition-colors text-lg font-medium">
         {NAV_ITEMS.map((item) => (
-        <a key={item.href} href={item.href} className="hover:text-black transition-colors">
+        <a key={item.href} href={item.href} className="hover:text-black dark:hover:text-gray transition-colors">
             {item.label}
         </a>
         ))}
@@ -77,20 +77,21 @@ const Header = () => {
 
         {/* Desktop Header */}
         <div className="hidden md:flex items-center justify-center text-primary dark:text-white">
-            <div className="hidden md:flex justify-between items-center w-full max-w-7xl p-3">
+            <div className="hidden md:grid grid-cols-3 justify-between items-center w-full max-w-7xl p-3">
                 {/* Title */}
-                <h1 className="text-2xl font-medium text-center">Platzi Travel</h1>
+                <h1 className="text-2xl font-medium text-start">Platzi Travel</h1>
 
                 {/* Navigation */}
                 <Navigation />
                 {/* Action Buttons */}
-                <div className="flex justify-center gap-4">
+                <div className="flex justify-end gap-4">
                     {/* Search Button */}
-                    <button className="hover:bg-gray dark:hover:bg-dark3 rounded-full flex justify-center items-center w-10 h-10 transition-colors duration-500">
+                    <label htmlFor="mobileSearch" className="flex flex-row-reverse justify-center items-center gap-1 bg-gray dark:bg-dark2 rounded-3xl w-[150px] ">
                         <svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29" fill="none">
                             <path fillRule="evenodd" clipRule="evenodd" d="M12.0833 3.625C7.41192 3.625 3.625 7.41192 3.625 12.0833C3.625 16.7547 7.41192 20.5417 12.0833 20.5417C13.9832 20.5417 15.7368 19.9153 17.1489 18.8577L22.104 23.8128C22.5759 24.2847 23.341 24.2847 23.8128 23.8128C24.2847 23.341 24.2847 22.5759 23.8128 22.104L18.8577 17.1489C19.9153 15.7368 20.5417 13.9832 20.5417 12.0833C20.5417 7.41192 16.7547 3.625 12.0833 3.625ZM6.04167 12.0833C6.04167 8.74661 8.74661 6.04167 12.0833 6.04167C15.4201 6.04167 18.125 8.74661 18.125 12.0833C18.125 15.4201 15.4201 18.125 12.0833 18.125C8.74661 18.125 6.04167 15.4201 6.04167 12.0833Z" fill={iconFill}/>
                         </svg>
-                    </button>
+                        <input type="text" name="Search" id="mobileSearch" placeholder="San Francisco"  className="bg-transparent text-black dark:text-white outline-transparent outline-0 w-24 focus:placeholder:opacity-50 transition-all ease-in"/>
+                    </label>
                     {/* Dark Mode Button */}
                     <button 
                         onClick={toggleTheme}

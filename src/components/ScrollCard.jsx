@@ -7,7 +7,7 @@ function ScrollCard({image, title, description}) {
             text-terciary even:text-white 
             rounded-lg shadow-md
             min-w-[160px] md:min-w-[272px]
-            transition duration-300
+            transform transition-all
             hover:-translate-y-4
             ">
             <div className={`${image} bg-cover bg-center h-28 md:h-48 rounded-t-lg`}></div>
