@@ -2,7 +2,7 @@ function Footer() {
     return (
         <footer className="mb-[72px] md:mb-0" id="AboutUs">
             <div className="bg-[#f6f6f6] text-[#ccc] dark:bg-dark2 py-8 px-6 md:px-12">
-                <div className="container mx-auto flex flex-col items-start justify-between">
+                <div className="w-full mx-auto flex flex-col items-start justify-between">
                     <div className="flex flex-col items-start">
                         <h3 className="text-2xl font-semibold mb-3">About Us</h3>
                         <div className="text-sm flex flex-col gap-3 mb-3">
