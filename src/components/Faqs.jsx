@@ -44,9 +44,9 @@ export default Faqs;
 
 function TextCard({title, description}) {
     return (
-        <article className="mb-3 md:mb-12">
-            <h3 className="text-base md:text-[32px] text-primary dark:text-white font-semibold mb-2 md:mb-7">{title}</h3>
+        <details className="mb-3 md:mb-8" open>
+            <summary className="text-base md:text-[24px] text-primary dark:text-gray font-semibold mb-2 md:mb-4">{title}</summary>
             <p className="text-[12px] md:text-xl dark:text-white">{description}</p>
-        </article>
+        </details>
     )
 }
